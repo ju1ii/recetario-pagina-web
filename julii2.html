@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="juli.css">
+    <title>Recetas.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> </head> <body>
+    <h1>Recetario</h1>
+    <div class="title">
+        <h3>¡Disfruta de la variedad de recetas!</h3>
+    </div>
+    <section id="tranding">
+        <div class="container">
+            <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide tranding-slide">
+                        <a href="cheese-cake.html">
+                            <div class="tranding-slide-img">
+                                <img src="img/Strawberry-Cheese-Cake.png" alt="Cheesecake" title="Cheesecake">
+                            </div>
+                        </a>
+                    </div>
+
+                    
+                    <div class="swiper-slide tranding-slide">
+                        <a href="Tiramisu.html">
+                            <div class="tranding-slide-img">
+                                <img src="img/tiramisu.webp" alt="Tiramisú" title="Tiramisú">
+                            </div>
+                        </a>
+                    </div>
+
+                    
+                    <div class="swiper-slide tranding-slide">
+                        <a href="torta-tres-leches.html">
+                            <div class="tranding-slide-img">
+                                <img src="img/torta tres leches.png" alt="Torta tres leches" title="Torta tres leches">
+                            </div>
+                        </a>
+                    </div>
+
+                     
+                    <div class="swiper-slide tranding-slide">
+                        <a href="lemon-pie.html">
+                            <div class="tranding-slide-img">
+                                <img src="img/Lemon Pie.png" alt="Lemon pie" title="Lemon pie">
+                            </div>
+                        </a>
+                    </div>
+
+                    
+                    <div class="swiper-slide tranding-slide">
+                        <a href="mousse.html">
+                            <div class="tranding-slide-img">
+                                <img src="img/Chocolate-Mousse.png" alt="Mousse" title="Mousse">
+                            </div>
+                        </a>
+                    </div>
+
+                    
+                    <div class="swiper-slide tranding-slide">
+                        <a href="brownie.html">
+                            <div class="tranding-slide-img">
+                                <img src="img/brownie.webp" alt="Brownie" title="Brownie">
+                            </div>
+                        </a>
+                    </div>
+
+                    
+                    <div class="swiper-slide tranding-slide">
+                        <a href="cookies.html">
+                            <div class="tranding-slide-img">
+                                <img src="img/cookie.avif" alt="Cookies" title="Cookies">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.tranding-slider', {
+            loop: true,
+            centeredSlides: true,  
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
+
+
